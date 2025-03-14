@@ -11,7 +11,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||HAPPY|BIRTHDAY|TO|THE|CUTEST|PRETTIEST|😍|SWEETEST|MOST|ADORABLE|😙|KINDEST|LOVELIEST|MOST|CHARMING|😋|INCREDIBLY|GORGEOUS|AMAZINGLY|WONDERFUL|⭐|AND|ABSOLUTELY|PERFECT|VISHU|❤|#rectangle|');
+      S.UI.simulate('|#countdown 3||HAPPY|BIRTHDAY|TO|THE|CUTEST|PRETTIEST|SWEETEST|MOST|ADORABLE|KINDEST|LOVELIEST|MOST|CHARMING|INCREDIBLY|GORGEOUS|AMAZINGLY|WONDERFUL|AND|ABSOLUTELY|PERFECT|VISHU|❤|#rectangle|');
     }
 
     S.Drawing.loop(function () {
